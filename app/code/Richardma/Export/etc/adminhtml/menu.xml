@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Backend/etc/menu.xsd">
+    <menu>
+        <add id="Richardma_Export::richardmaExport" title="Richardma Export" module="Richardma_Export" sortOrder="500" parent="Magento_Sales::sales" resource="Richardma_Export::richardmaExport"/>
+        <add id="Richardma_Export::addressList" title="Export Address List" module="Richardma_Export" sortOrder="100" parent="Richardma_Export::richardmaExport" action="Export/addresslist" resource="Richardma_Export::addressList"/>
+        <add id="Richardma_Export::order" title="Export Order" module="Richardma_Export" sortOrder="200" parent="Richardma_Export::richardmaExport" action="Export/order" resource="Richardma_Export::order"/>
+    </menu>
+</config>

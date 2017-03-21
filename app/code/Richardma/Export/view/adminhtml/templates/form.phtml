@@ -1,0 +1,6 @@
+<h1>Export <?php echo $this->getControllerName(); ?></h1>
+<form target="_blank" method="post" action="<?php echo $this->getFormActionUrl(); ?>">
+    <input type="hidden" name="form_key" value="<?php echo $this->getFormKey(); ?>" />
+    <textarea name="order_ids" cols="80" rows="10"></textarea>
+    <input type="submit" value="Export <?php echo $this->getControllerName(); ?>" />
+</form>
