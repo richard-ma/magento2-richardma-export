@@ -11,5 +11,7 @@
 # 使用
 1. 登陆magento后台
 1. 在sales菜单中可以看到export addresslist和export order两个子菜单
+![](./docs/images/1.png)
 1. 填入订单号码点击export按钮即可下载导出后的文件
 1. 订单号码支持3-5的写法，表示3 4 5号订单，每个单独的订单号码使用英文逗号分割
+![](./docs/images/2.png)
