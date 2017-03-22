@@ -80,7 +80,7 @@ class OrderList
                     ->mergeCells('A'.$start.':A'.$end.'')
                     ->setCellValue('A'.$start.'', $_order->getId())
 
-                    ->setCellValue('B'.$start.'', 'size: ' . 'Todo: add size option')//$_item->getProductOptions()['options'][0]['value'])
+                    ->setCellValue('B'.$start.'', 'size: ' . (isset($_item->getProductOptions()['options'][0]['value']) ? $_item->getProductOptions()['options'][0]['value'] : "Please add size option."))
                     ->mergeCells('B'.(string)($start+1).':B'.$end.'')
 
                     ->setCellValue('C'.$start.'', $address->getName())
